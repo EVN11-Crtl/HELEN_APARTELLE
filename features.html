@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helen's Apartelle</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <style>
+        section {
+        background: linear-gradient(135deg, rgba(43, 64, 71, 0.5), rgba(255, 255, 255, 0.4));
+        }
+        .card {
+        background-color: rgba(255, 255, 255, 0.5); 
+        border-radius: 10px; 
+        padding: 20px;
+        box-shadow: 0 50px 60px rgba(0, 0, 0, 0.7); 
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+        border: 1px solid rgba(255, 255, 255, 0.5); 
+        }   
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm" style="color: black;">
+    <div class="container-fluid px-3 px-lg-5">
+        <a class="navbar-brand ms-lg-5" href="#" style="color: black;">
+            <img src="logo.png" alt="Helen's Apartelle Logo" height="30" class="d-inline-block align-top me-2">
+            Helen's Apartelle
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#features" style="color: black; display: flex; align-items: center; height: 40px;">Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery" style="color: black; display: flex; align-items: center; height: 40px;">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews" style="color: black; display: flex; align-items: center; height: 40px;">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us" style="color: black; display: flex; align-items: center; height: 40px;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#location" style="color: black; display: flex; align-items: center; height: 40px;">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color: black; display: flex; align-items: center; height: 40px;">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html" style="color: rgb(134, 131, 131); display: flex; align-items: center; height: 40px;">
+                        <img src="C:\Users\User\Downloads\image1 (6).jpeg" alt="Profile Picture" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-right: 8px;">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" style="font-size: 50px; color: #333;">Amenities</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-bed fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Comfortable Rooms</h5>
+                            <p class="card-text">Spacious and well-furnished rooms for a relaxing stay.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-wifi fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Free Wi-Fi</h5>
+                            <p class="card-text">Stay connected with high-speed internet throughout the property.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-utensils fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Common Kitchen</h5>
+                            <p class="card-text">Fully equipped kitchen available for all residents to use.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-shield-alt fs-1 text-primary mb-3"></i> 
+                            <h5 class="card-title">Security</h5>
+                            <p class="card-text">Your safety is our priority with 24/7 security services.</p> 
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-parking fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Parking Area</h5>
+                            <p class="card-text">Ample parking space for all our residents and visitors.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0 text-center">
+                        <div class="card-body">
+                            <i class="fas fa-tv fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Entertainment Lounge</h5>
+                            <p class="card-text">Relax and enjoy movies or shows in our common lounge area.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery" class="py-5 gallery">
+        <div class="container">
+            <h2 class="text-center mb-5" style="font-size: 50px; color: #333;">Gallery</h2>
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-4">
+                        <img src="room.jpg" class="card-img-top" alt="Room Image" style="height: 500px; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card mb-4">
+                        <img src="lounge.jpg" class="card-img-top" alt="Lounge Image" style="height: 200px; object-fit: cover;">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card mb-4">
+                                <img src="kitchen.jpg" class="card-img-top" alt="Kitchen Image" style="height: 230px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card mb-4">
+                                <img src="common.jpg" class="card-img-top" alt="Common Area Image" style="height: 230px; object-fit: cover;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card mb-4">
+                        <img src="pool.jpg" class="card-img-top" alt="Pool Image" style="height: 200px; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card mb-4">
+                        <img src="garden.jpg" class="card-img-top" alt="Garden Image" style="height: 200px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="reviews" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="font-size: 50px; color: #333;">What Our Residents Say</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <i class="fas fa-quote-left fs-1 text-primary mb-3"></i>
+                            <p class="card-text">"Living here has been a wonderful experience! The atmosphere is friendly and welcoming."</p>
+                            <footer class="blockquote-footer mt-3">Alphz Alingalan</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <i class="fas fa-quote-left fs-1 text-primary mb-3"></i>
+                            <p class="card-text">"The amenities are top-notch! I love the kitchen and the fast internet."</p>
+                            <footer class="blockquote-footer mt-3">Brylle</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <i class="fas fa-quote-left fs-1 text-primary mb-3"></i>
+                            <p class="card-text">"It's a great place to meet new people and feel at home while away from family."</p>
+                            <footer class="blockquote-footer mt-3">Jaah</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="about-us" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" style="font-size: 50px; color: #333;">About Us</h2>
+            <p class="text-center mb-4">
+                At Helen's Apartelle, we provide a warm and welcoming home-like experience for all our residents. Nestled in the heart of Davao Oriental, we pride ourselves on offering excellent hospitality with top-notch amenities. Whether you're here for business or leisure, Helen's Apartelle is the perfect place to stay.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-bullseye fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Our Mission</h5>
+                            <p class="card-text">To provide a safe, comfortable, and friendly environment where every resident feels at home.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-eye fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Our Vision</h5>
+                            <p class="card-text">To be the premier choice for affordable and quality accommodations in Davao Oriental.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-history fs-1 text-primary mb-3"></i>
+                            <h5 class="card-title">Our History</h5>
+                            <p class="card-text">Founded in 2020, Helen's Apartelle has grown from a small inn into a popular destination for both short-term and long-term stays.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4"style="font-size: 50px; color: #333;">Location</h2>
+            <p class="text-center mb-4">
+                <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                Phase 10 Martinez Ave, Mati, 8200 Davao Oriental
+            </p>
+            <div class="ratio ratio-16x9 shadow-lg rounded overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15812.68470332927!2d126.2556192!3d6.9331531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fbc96865a5d969%3A0xad7d49b7f999fa79!2sRheyan%20Glenn!5e0!3m2!1sen!2sph!4v1696526686999!5m2!1sen!2sph" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4"style="font-size: 50px; color: #333;"></i>Contact Us</h2>
+        <p class="text-center mb-5">We appreciate your interest in staying at Helen's Apartelle! Please fill out the form below to check the availability of our rooms. Our team will get back to you shortly with the information you need to plan your stay.</p>
+        <form id="inquiryForm" class="needs-validation" novalidate>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">
+                        <i class="bi bi-person-fill text-primary me-2"></i>Name
+                    </label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    <div class="invalid-feedback">
+                        Please provide your name.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="age" class="form-label">
+                        <i class="bi bi-calendar-event text-primary me-2"></i>Age
+                    </label>
+                    <input type="number" class="form-control" id="age" placeholder="Your Age" required>
+                    <div class="invalid-feedback">
+                        Please provide your age.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">
+                        <i class="bi bi-envelope-fill text-primary me-2"></i>Email
+                    </label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid email address.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="gender" class="form-label">
+                        <i class="bi bi-gender-ambiguous text-primary me-2"></i>Gender
+                    </label>
+                    <select class="form-select" id="gender" required>
+                        <option value="" disabled selected>Select Your Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select your gender.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="address" class="form-label">
+                        <i class="bi bi-geo-alt-fill text-primary me-2"></i>Address
+                    </label>
+                    <input type="text" class="form-control" id="address" placeholder="Your Address" required>
+                    <div class="invalid-feedback">
+                        Please provide your address.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">
+                        <i class="bi bi-chat-left-text-fill text-primary me-2"></i>Message
+                    </label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+                    <div class="invalid-feedback">
+                        Please provide a message.
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-outline-dark btn-lg">
+                        <i class="bi bi-send-fill text-info me-2"></i>
+                        <span id="buttonText">Submit Inquiry</span>
+                        <span id="loading" class="spinner-border spinner-border-sm ms-2 d-none" role="status" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    </section>
+            <div class="alert alert-success d-flex align-items-center p-2 mt-3 d-none" id="successAlert" role="alert">
+                <i class="fas fa-check-circle flex-shrink-0 me-2" style="font-size: 1.25rem;" aria-hidden="true"></i>
+                <div class="small">
+                    Thank you for your inquiry! We'll get back to you soon.
+                </div>
+            </div>
+    
+            <div class="alert alert-danger d-flex align-items-center p-2 mt-3 d-none" id="errorAlert" role="alert">
+                <i class="fas fa-exclamation-triangle flex-shrink-0 me-2" style="font-size: 1.25rem;" aria-hidden="true"></i>
+                <div class="small">
+                    Oops! Something went wrong. Please try again later.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <img src="logo.png" alt="Helen's Apartelle Logo" class="mb-3 mx-auto d-block" style="width: 100px;">
+            <p class="mb-1">&copy; 2024 Helen's Apartelle. All rights reserved.</p>
+            <div class="d-flex justify-content-center mt-2">
+                <a href="https://www.facebook.com/Evannn11/" target="_blank" rel="noopener noreferrer" class="text-light mx-2">
+                    <i class="bi bi-facebook fs-5"></i>
+                    <span class="visually-hidden">Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/ersupermall/" target="_blank" rel="noopener noreferrer" class="text-light mx-2">
+                    <i class="bi bi-instagram fs-5"></i>
+                    <span class="visually-hidden">Instagram</span>
+                </a>
+                <a href="https://x.com/RedhoeRedhoe18" target="_blank" rel="noopener noreferrer" class="text-light mx-2">
+                    <i class="bi bi-twitter fs-5"></i>
+                    <span class="visually-hidden">Twitter</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <button id="backToTop" class="btn btn-outline-primary rounded-circle shadow position-fixed bottom-0 end-0 m-4" style="display: none; width: 50px; height: 50px;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

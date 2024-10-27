@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helen's Apartelle</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif; 
+            transition: opacity 0.5s ease-in-out; 
+        }
+        .fade-out {
+            opacity: 0; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container-fluid px-3 px-lg-5">
+            <a class="navbar-brand ms-lg-5" href="#">
+                <img src="logo.png" alt="Helen's Apartelle Logo" height="30" class="d-inline-block align-top me-2">
+                Helen's Apartelle
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: black;" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: black;" href="log.html">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="d-flex align-items-center justify-content-center text-white text-center bg-dark" style="height: 100vh; background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('location.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1 class="display-4" style="font-size: 70px; font-weight: bold;">Welcome To Helen's Apartelle</h1>
+            <p class="lead" style="font-size: 20px;">Your home away from home!</p>
+            <a href="log.html" class="btn btn-outline-light btn-lg transition-link"><i class="bi bi-send-fill text-info me-2"></i>Get Started</a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function applyFadeOut(link) {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); 
+                var targetUrl = this.getAttribute('href');
+
+                document.body.classList.add('fade-out'); 
+
+                setTimeout(function() {
+                    window.location.href = targetUrl; 
+                }, 500); 
+            });
+        }
+        var links = document.querySelectorAll('a.transition-link, .navbar-nav a');
+        links.forEach(applyFadeOut); 
+    </script>
+</body>
+</html>

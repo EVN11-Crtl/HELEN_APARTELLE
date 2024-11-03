@@ -23,9 +23,7 @@
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
-        .profile-box:hover {
-            transform: translateY(-10px);
-        }
+        
         .profile-box img {
             width: 150px; 
             height: 150px; 
@@ -44,19 +42,25 @@
             color: #2c3e50;
             line-height: 1.4;
         }
-        .logout-button {
-            padding: 10px 20px; 
-            margin-top: 20px; 
-            border: none; 
-            border-radius: 5px; 
-            background-color: #007bff; 
-            color: white; 
-            cursor: pointer; 
+        .btn-group .btn {
+            width: 48%;
+            margin: 0 1%; 
             font-size: 16px;
-            transition: background-color 0.3s ease;
+            border-radius: 5px;
+            color: white;
+            padding: 10px;
+        }
+        .logout-button {
+            background-color: #007bff;
         }
         .logout-button:hover {
-            background-color: #0056b3; 
+            background-color: #4a4e52; 
+        }
+        .back-button {
+            background-color: #007bff;
+        }
+        .back-button:hover {
+            background-color: #4a4e52; 
         }
     </style>
 </head>
@@ -73,7 +77,10 @@
         <p><strong>Birthday:</strong> October 11, 2003</p>
         <p><strong>Address:</strong> Prk. Santan, Baon San Isidro, Davao Oriental</p>
         <p><strong>Contact Number:</strong> +639568536705</p>
-        <a href="index.html" class="btn logout-button">Log Out</a>
+        <div class="btn-group d-flex justify-content-center">
+            <a href="index.html" class="btn logout-button">Log Out</a>
+            <a href="features.html" class="btn back-button">Back</a>
+        </div>
     </div>
 </div>
 
